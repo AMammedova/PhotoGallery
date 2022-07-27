@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="photo-gallery">
+      <div class="photo-gallery-part1">
+        <div  class="gallery-part1-image">
+            <img id="img-Box" src="images/img1.jpg" alt="">
+          <i id="zoom" class="fa-solid fa-magnifying-glass-plus"></i>
+
+        </div>
+        <div class="gallery-part1-text">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
+            explicabo eius dolorum saepe, quaerat velit numquam maxime facere
+            nihil ad assumenda, porro sed aliquid, quas consequuntur quam earum
+            magni est provident tenetur nam accusamus? Exercitationem incidunt
+            voluptatem distinctio quia, dicta similique in! Quas quisquam porro
+            provident voluptatem unde totam qui!
+          </p>
+        </div>
+      </div>
+      <div class="photo-gallery-part2">
+        <div class="gallery-part2-photos">
+          <div class="photos-1">
+            <img src="images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img4.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img5.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img1.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img6.jpg" alt="click here" onclick="myImageFunction(this)" />
+            <img src="images/img3.jpg" alt="click here" onclick="myImageFunction(this)" />
+            
+          </div>
+          <!-- <div class="photos-2">
+            
+          </div> -->
+        </div>
+        <div class="gallery-part2-text-extension">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
+              explicabo eius dolorum saepe, quaerat velit numquam maxime facere
+              nihil ad assumenda, porro sed aliquid, quas consequuntur quam earum
+              magni est provident tenetur nam accusamus? Exercitationem incidunt
+              voluptatem distinctio quia, dicta similique in! Quas quisquam porro
+              provident voluptatem unde totam qui!
+            </p>
+          </div>
+        <div class="gallery-part2-text">
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex
+                explicabo eius dolorum saepe, quaerat velit numquam maxime facere
+                nihil ad assumenda, porro sed aliquid, quas consequuntur quam earum
+                magni est provident tenetur nam accusamus? Exercitationem incidunt
+                voluptatem distinctio quia, dicta similique in! Quas quisquam porro
+                provident voluptatem unde totam qui!
+              </p>
+        </div>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>
